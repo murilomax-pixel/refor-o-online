@@ -1,79 +1,79 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+  <!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <!-- Link para o CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .login-container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-        }
-        .login-container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .login-container .form-group {
-            margin-bottom: 15px;
-        }
-        .login-container .form-control {
-            border-radius: 4px;
-            box-shadow: none;
-        }
-        .login-container .btn {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-        }
-        .login-container .forgot-password {
-            text-align: center;
-            margin-top: 10px;
-        }
-        .login-container .forgot-password a {
-            color: #007bff;
-            text-decoration: none;
-        }
-    </style>
+    <title>Reforço Escolar Online - Matemática, Ciências e Português</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="login-container">
-    <form action="#" method="POST">
-        <div class="form-group">
-            <label for="username">Usuário</label>
-            <input type="text" class="form-control" id="username" name="username" placeholder="Digite seu usuário" required>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Reforço Escolar Online</h1>
+            <p>Aulas de Matemática, Ciências e Português para você aprender no seu ritmo.</p>
+            <nav>
+                <ul>
+                    <li><a href="#matematica">Matemática</a></li>
+                    <li><a href="#portugues">Português</a></li>
+                    <li><a href="#ciencias">Ciências</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="form-group">
-            <label for="password">Senha</label>
-            <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha" required>
-            <a href="site.html" target="_blank">entrar</a>
+    </header>
+
+    <!-- Seção Matemática -->
+    <section id="matematica" class="materia">
+        <div class="container">
+            <h2>Matemática</h2>
+            <p>A Matemática é essencial para o nosso dia a dia. Neste curso online, você aprenderá:</p>
+            <ul>
+                <li><strong>Álgebra:</strong> Equações, expressões algébricas, polinômios.</li>
+                <li><strong>Geometria:</strong> Figuras geométricas, ângulos, perímetro, área e volume.</li>
+                <li><strong>Funções:</strong> Funções lineares, quadráticas e exponenciais.</li>
+                <li><strong>Probabilidade e Estatística:</strong> Cálculos de probabilidades, gráficos e tabelas.</li>
+            </ul>
+            <p>Para mais detalhes e exemplos, acesse <a href="https://www.khanacademy.org/math" target="_blank">Khan Academy - Matemática</a>.</p>
         </div>
-    </form>
-    <div class="forgot-password">
-        <p><a href="#">Esqueceu a senha?</a></p>
-    </div>
-</div>
+    </section>
 
-<!-- Scripts do Bootstrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Seção Português -->
+    <section id="portugues" class="materia">
+        <div class="container">
+            <h2>Português</h2>
+            <p>Melhore sua compreensão de leitura, gramática e redação com nosso conteúdo especializado. Aqui você aprenderá:</p>
+            <ul>
+                <li><strong>Ortografia:</strong> Regras de acentuação, uso de "s" e "z", palavras homônimas.</li>
+                <li><strong>Gramática:</strong> Concordância verbal e nominal, pronomes, tempos verbais.</li>
+                <li><strong>Leitura e Interpretação:</strong> Como entender e interpretar textos literários e não literários.</li>
+                <li><strong>Redação:</strong> Técnicas para escrever bem, como estruturar um texto dissertativo-argumentativo.</li>
+            </ul>
+            <p>Para mais informações, visite <a href="https://www.todamateria.com.br/portugues/" target="_blank">Toda Matéria - Português</a>.</p>
+        </div>
+    </section>
 
+    <!-- Seção Ciências -->
+    <section id="ciencias" class="materia">
+        <div class="container">
+            <h2>Ciências</h2>
+            <p>Entenda os principais conceitos das Ciências Naturais. Nosso curso abrange:</p>
+            <ul>
+                <li><strong>Biologia:</strong> Estrutura celular, ecossistemas, genética e evolução.</li>
+                <li><strong>Física:</strong> Leis do movimento, energia, termodinâmica e eletricidade.</li>
+                <li><strong>Química:</strong> Tabela periódica, reações químicas, ácidos e bases.</li>
+                <li><strong>Astronomia:</strong> Estudo dos planetas, estrelas, galáxias e o universo.</li>
+            </ul>
+            <p>Para recursos adicionais, visite <a href="https://www.khanacademy.org/science" target="_blank">Khan Academy - Ciências</a>.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Reforço Escolar Online | Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
 
-
-
+     
